@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-img
+{
+    width: 300px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.project-caption {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
