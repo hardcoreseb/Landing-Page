@@ -39,6 +39,9 @@ li {
 
 .hero {
     display: flex;
+    padding: 40px;
+    justify-content: center;
+    gap: 80px;
 }
 
 .hero-text {
@@ -48,6 +51,8 @@ li {
 
 h1 {
     font-size: 48px;
+    margin: 0 0 8px 0;
+    text-align: left;
 }
 
 .subtext {
@@ -59,12 +64,23 @@ h1 {
 .main-img
 {
     width: 300px;
-    margin-left: auto;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 8px 16px;
+    border-radius: 6px;
+    width: 100px;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #255aaf;
+}
+
+.upper-button {
+    border: 0;
 }
 
 .project-caption {
