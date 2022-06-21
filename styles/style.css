@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 header,
@@ -8,8 +9,25 @@ footer {
     color: #f9faf8;
 }
 
+.topbar {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
     font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    padding: 0 8px;
 }
 
 h1 {
