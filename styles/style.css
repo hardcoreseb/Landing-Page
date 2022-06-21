@@ -4,6 +4,13 @@ body {
 }
 
 header,
+.projects,
+.quote-section,
+footer {
+    padding: 0 10%;
+}
+
+header,
 footer {
     background-color: #1f2937;
     color: #f9faf8;
