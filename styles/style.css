@@ -37,6 +37,15 @@ li {
     padding: 0 8px;
 }
 
+.hero {
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-size: 48px;
 }
@@ -44,11 +53,13 @@ h1 {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    text-align: left;
 }
 
 .main-img
 {
     width: 300px;
+    margin-left: auto;
 }
 
 button {
