@@ -86,6 +86,7 @@ button:active {
 .project-container {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
 .project-caption {
@@ -101,6 +102,17 @@ button:active {
     flex-direction: column;
 }
 
+.recipes-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid #3882f6 3px;
+}
+
+.recipes-img:hover {
+    filter: brightness(50%);
+}
+
 .quote-section {
     background-color: #e5e7eb;
 }
@@ -109,4 +121,21 @@ button:active {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 40px;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.lower-button {
+    margin-left: auto;
+    border: solid #f9faf8 1px;
+    height: 31px;
 }
