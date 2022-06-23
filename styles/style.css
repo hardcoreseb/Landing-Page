@@ -84,6 +84,10 @@ button:active {
     border: 0;
 }
 
+.projects {
+    margin: 100px;
+}
+
 .project-container {
     display: flex;
     justify-content: center;
