@@ -116,6 +116,15 @@ button:active {
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-container {
+    width: 500px;
+    margin: 50px;
 }
 
 .quote {
@@ -124,19 +133,39 @@ button:active {
     color: #1f2937;
 }
 
+.author {
+    text-align: right;
+}
+
 .signup {
-    background-color: #3882f6;
     color: #f9faf8;
-    padding: 40px;
-    margin: 100px;
-    border-radius: 10px;
     display: flex;
-    text-align: left;
+    justify-content: center;
+}
+
+.signup-container {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
     align-items: center;
+    width: 600px;
+    padding: 10px 50px;
+    margin: 60px;
+}
+
+.signup-text {
+    text-align: left;
 }
 
 .lower-button {
-    margin-left: auto;
     border: solid #f9faf8 1px;
     height: 31px;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
