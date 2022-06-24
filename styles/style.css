@@ -84,6 +84,7 @@ button {
     border-radius: 6px;
     width: 100px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button:active {
